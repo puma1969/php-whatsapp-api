@@ -10,11 +10,11 @@ use CarlosIO\WhatsApp\Command\ChangeStatusCommand;
 */
 use Symfony\Component\Console\Application;
 
-$application = new Application();
-$application->add(new SendCommand);
+$send="41763440060";
+$imai="013195006205051";
 /*
 $application->add(new ListenCommand);
 $application->add(new InteractiveConversationCommand);
 $application->add(new ChangeStatusCommand);
 */
-$application->run();
+$php whatsapp.php -i 41794666600
