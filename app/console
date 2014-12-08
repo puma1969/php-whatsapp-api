@@ -13,8 +13,8 @@ use Symfony\Component\Console\Application;
 $application = new Application();
 $application->add(new SendCommand);
 /*
-$application->add(new ListenCommand);
-$application->add(new InteractiveConversationCommand);
+$sender="41763440060";
+$imei="013195006205051;
 $application->add(new ChangeStatusCommand);
 */
 $application->run();
